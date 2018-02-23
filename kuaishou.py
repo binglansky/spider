@@ -6,7 +6,6 @@ import json,os,re,socket,time,sys
 import Queue
 import threading
 import logging
-import MySQLdb
 
 
 # 日志模块
