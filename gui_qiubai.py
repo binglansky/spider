@@ -36,7 +36,7 @@ def main():
     b.pack(side=BOTTOM)  # 按钮的布局 放在窗口最下面
     global txt
     txt=Text(root,font=(u"黑体",20)) # 定义一个编辑界面
-    txt.pack(expand=YES,fill=BOTH)  # 编辑界面布局 随窗口大小而自动改变
+    txt.pack(expand=YES,fill=BOTH)  # 编辑界面布局 随窗口大小自动改变
     root.mainloop()   # 让窗口一直在屏幕上显示出来 
 
 
